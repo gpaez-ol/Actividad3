@@ -8,18 +8,127 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Never Stop Gang</title>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <!-- Navbar content -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tavo Paez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Songs">Canciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Merch">Merch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <h1>Never Stop Gang</h1>
+    <div class="container">
     <!-- Optional JavaScript; choose one of the two! -->
-    <h1>Example heading <span class="badge bg-secondary">New</span></h1>
-<h2>Example heading <span class="badge bg-secondary">New</span></h2>
-<h3>Example heading <span class="badge bg-secondary">New</span></h3>
-<h4>Example heading <span class="badge bg-secondary">New</span></h4>
-<h5>Example heading <span class="badge bg-secondary">New</span></h5>
-<h6>Example heading <span class="badge bg-secondary">New</span></h6>
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.scdn.co/image/ab67616d0000b273b08247be4a48fc03883337af" class="card-img-top" alt="Mala Logo">
+        <div class="card-body">
+          <h5 class="card-title">Mala (Pegate)</h5>
+          <p class="card-text">La cancion mas nueva, con vibras de verano para que disfrutes con tus amigos en la playa.</p>
+          <a href="https://ampl.ink/zN1XP" class="btn btn-primary">Escuchala ahora</a>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="card" style="width: 18rem;">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/bb/e5/18/bbe518d0-9ab9-f46f-52ce-dd462f708bed/198000311933.jpg/1200x1200bf-60.jpg" class="card-img-top" alt="Sevilla Logo">
+        <div class="card-body">
+          <h5 class="card-title">Sevilla</h5>
+          <p class="card-text">El primer release del verano 2021 mostrando un sneak peek del primer EP.</p>
+          <a href="https://ampl.ink/eEYbp" class="btn btn-primary">Escuchala ahora</a>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.scdn.co/image/ab67616d0000b2732a99e5960551e762f774735a" class="card-img-top" alt="Istanbul Logo">
+        <div class="card-body">
+          <h5 class="card-title">Istanbul</h5>
+          <p class="card-text">El primer release del 2021, presentando la primera cancion del EP "The Trip".</p>
+          <a href="https://ampl.ink/2L9xe" class="btn btn-primary">Escuchala ahora</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="container">
+  <br>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Join the Trip
+  </button>
+  <!-- Content here -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">The Trip</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Thank you for Joining the Trip!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Merch Sevilla
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Camisa Negra de Sevilla.</strong> 
+          <h1>$250 Pesos</h1>
+          <p1>XS / S / M / L / XL / XXL</p1>
+          <br>
+          <img src="https://pbs.twimg.com/media/E9xBYP9XsAIJ2a4?format=jpg&name=medium" class="img-fluid" alt="Camisa Sevilla">
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Merch Mala
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Camisa Blanca Mala.</strong> 
+          <h1>$250 Pesos</h1>
+          <p1>XS / S / M / L / XL / XXL</p1>
+          <br>
+          <img src="https://pbs.twimg.com/media/E9xBYP-XEAEAHwq?format=jpg&name=medium"
+           class="img-fluid" alt="Camisa Mala">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
